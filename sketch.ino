@@ -40,7 +40,7 @@ const int wifitimeout = 30;
  */
  
 const unsigned long long int uS_TO_S_FACTOR  = 1000000;
-const unsigned long long int TIME_TO_SLEEP  = 3600; 
+const int TIME_TO_SLEEP                      = 43200; 
 
 /* MAPPING RAW READINGS FROM SOILSENSOR TO PERCENTAGES
  *  
@@ -59,7 +59,7 @@ const unsigned long long int TIME_TO_SLEEP  = 3600;
  *  to 0% humidity.The script will use these variables to calculate the percentages.
  */
 
-const int airValue = 3305;
+const int airValue   = 3305;
 const int waterValue = 1500;
 
 void setup()
