@@ -39,8 +39,8 @@ const int wifitimeout = 30;
  *  good enough to me personally.
  */
  
-const int uS_TO_S_FACTOR  = 1000000;
-const int TIME_TO_SLEEP  = 3600; 
+const unsigned long long int uS_TO_S_FACTOR  = 1000000;
+const unsigned long long int TIME_TO_SLEEP  = 3600; 
 
 /* MAPPING RAW READINGS FROM SOILSENSOR TO PERCENTAGES
  *  
